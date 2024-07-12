@@ -7,13 +7,28 @@
   font-variation-settings:
     "wdth" 100;
 }
+/* header */
+.header-hero{
+    background-image:url('../assets/Hero-bg.png');
+    width: 1950px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+/* header */
+.header-nav{
+    background: rgba(30, 30, 30, .05);
+}
+
 
 /* Nav styles */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 100px;
 }
 
 .nav-title{
@@ -28,3 +43,31 @@ nav{
     padding: 17px 24px;
     border-radius: 8px;
 }
+
+/* banner styles */
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 998px;
+   
+}
+/* hero-div */
+.hero-div{
+    width: 60%;
+    margin: 0 auto;
+   
+}
+/* banner-content */
+.banner-content{
+    text-align: center;
+}
+
+.banner-profile-pic{
+    width: 240.28px;
+    height: 240px;
+   
+}
+
+
