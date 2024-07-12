@@ -34,14 +34,16 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 28;
+    border: 50px 1170px 5157px 150px;
 }
 
 .btn-primary{
     color: 0D1321;
     background-color: white;
     font-weight: bold;
-    padding: 17px 24px;
+    padding: 17px 24px 17px 24px;
     border-radius: 8px;
+    border: 38px 166px 5149px 1046px;
 }
 
 /* banner styles */
@@ -68,6 +70,44 @@ nav{
     width: 240.28px;
     height: 240px;
    
+}
+
+/* div-two */
+.div-two{
+    background-color: brown;   
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* div-two-text */
+.div-two-text{
+    width: 50%;
+}
+
+/* div-two-image */
+.div-two-image{
+    width: 50%;
+}
+
+/* why-web-development-class */
+.why-web-development-class{
+    background-color: aqua;
+    padding: 80px 97px 80px 97px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+
+/* inspiration */
+.inspiration{
+    text-align: center;
+}
+
+/* current-target */
+.current-target{
+    text-align: center;
 }
 
 
