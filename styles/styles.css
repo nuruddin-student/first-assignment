@@ -33,17 +33,27 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 28;
-    border: 50px 1170px 5157px 150px;
+   
 }
 
 .btn-primary{
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    padding: 17px 24px 17px 24px;
+    border-radius: 8px;
+   
+    
+    
+}
+/* btn-contact */
+.btn-contact{
     color: white;
     background-color: black;
     font-weight: bold;
     padding: 17px 24px 17px 24px;
     border-radius: 8px;
-    border: 38px 166px 5149px 1046px;
-    
+   text-decoration: none;
 }
 
 /* banner styles */
@@ -381,6 +391,8 @@ a{
 .footer-image{
     margin-right: 310px;
 }
+
+
 
 
 
