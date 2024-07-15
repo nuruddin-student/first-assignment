@@ -29,7 +29,7 @@
                     <p class="banner-description">I am hard working to become a web developer.Everyday I spent almost
                         6-8 hours so that I finished my daily work.</p>
                 </div>
-                <button class="btn-primary">Contact with me</button>
+                <button class="btn-primary"><a href="foot"></a>Contact with me</button>
             </div>
         </div>
     </header>
@@ -67,13 +67,15 @@
             </div>
         </section>
         <section>
-            <div>
+            <div class="Inspiration-div">
                 <div class="banner-inspire">
                     <h1>My Inspiration</h1>
                     <p>I am inspired by the Jhankar bhai. In addition, I inspired my cousin</p>
                 </div>
                 <div class="banner-ins-video">
-                    <iframe width="1300" height="700" src="https://www.youtube.com/embed/DGHn2uOAVCE?si=P456k5y75XaOyRGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div>
+                        <iframe width="1300" height="700" src="https://www.youtube.com/embed/DGHn2uOAVCE?si=P456k5y75XaOyRGu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </section>
@@ -145,7 +147,7 @@
                 </div>
                 <div class="banner-image-mongo">
                     <div>
-                        <img src="assets/mongodb.png" alt="">
+                        <img class="image-mongo" src="assets/mongodb.png" alt="">
                     </div>
                     <div class="banner-mongo">
                         <h1>MongoDB</h1>
@@ -154,16 +156,31 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section>
-            <div>
-                <img class="support-image" src="assets/handshake.jpg" alt="">
-                <h1>I Need Support</h1>
-                <p>I need support to complete my assignment</p>
+        <section class="support">
+            <div class="support-text">
+                <h2 class="support-title">I Need Support</h2>
+                <p class="support-description">As a developer, I need support to overcome challenges and grow professionally.</p>
             </div>
+            <div>
+                <form class="form">
+                    <fieldset class="fieldset">
+                        <input class="input-text" type="text" placeholder="Suggest me any feedback for me">
+                        <input class="btn-submit" type="submit" value="Submit">
+                    </fieldset>
+                </form>
+            </div>    
         </section>
     </main>
-    <footer>
+    <footer id="foot" class="footer-content">
+        <h4 class="footer-text">
+            An Open Commitment By Mohammad Nur Uddin
+        </h4>
+        <div class="footer-image">
+            <a href="https://www.facebook.com/"><img src="assets/facebook.png" alt=""></a>
+            <a href="https://github.com/"><img src="assets/github.png" alt=""></a>
+            <a href="https://bd.linkedin.com/"><img src="assets/linkedin-icon 1.png" alt=""></a>
+            
+        </div>
     </footer>
 </body>
 
